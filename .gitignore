@@ -1,3 +1,5 @@
 .idea/
-assets/
-core/
+/assets
+/core
+node_modules/
+/config.json

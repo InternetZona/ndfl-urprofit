@@ -1,0 +1,36 @@
+
+// Fonts
+$h1-fontsize: 2rem !default;
+$h2-fontsize: 1.7rem !default;
+$h3-fontsize: 1.5rem !default;
+$h4-fontsize: 1.3rem !default;
+$h5-fontsize: 1.2rem !default;
+$h6-fontsize: 1.1rem !default;
+
+// Colors
+$primary-color: #01579b;
+$secondary-color: #d50000;
+
+// Grid
+$num-cols: 24;
+
+// Tables
+$table-border-color: rgba($primary-color, .8) !default;
+
+@import '../../../../node_modules/materialize-css/sass/materialize';
+@import 'libs/swiper';
+@import 'helpers';
+@import 'typography';
+@import 'layout';
+@import 'breadcrumbs';
+@import 'cards';
+@import 'footer';
+@import 'swiper';
+@import 'menu';
+@import 'table';
+@import 'header';
+@import 'modal';
+@import 'navbar';
+@import 'list';
+@import 'order';
+@import 'form';

@@ -4,8 +4,8 @@
   "assets": "assets/components/",
   "core": "core/components/",
   "deploy": {
-    "host": "",
-    "username": "",
-    "password": ""
+    "host": "cs52083.tmweb.ru",
+    "username": "cs52083_ftp",
+    "password": "uribXZM2"
   }
 }

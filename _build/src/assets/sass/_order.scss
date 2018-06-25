@@ -1,0 +1,60 @@
+#order {
+  .tabs {
+
+    &-wrapper {
+      @extend .z-depth-2;
+      padding: 1rem;
+
+      @media #{$large-and-up} {
+        margin: 0 3rem;
+      }
+
+      @media #{$extra-large-and-up} {
+        margin: 0 5rem;
+      }
+    }
+
+    .tab {
+      a {
+        background-color: transparent!important;
+      }
+    }
+  }
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  .form {
+    margin-bottom: 0;
+  }
+}
+
+.order-summary {
+  margin: 0;
+
+  > li {
+    margin-bottom: 10px;
+    font-weight: bold;
+
+    span {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__price {
+    font-size: 1.2rem;
+    color: $primary-color;
+  }
+
+  &__discount {
+    font-size: 1.2rem;
+    color: $secondary-color;
+  }
+
+  &__alert {
+    display: none;
+    color: $secondary-color;
+    font-size: 1.1rem;
+  }
+}

@@ -2,7 +2,7 @@
     <div class="footer__copyright">
         <div class="container">
             <div>
-                © {$smarty.now|date_format:"%Y"}
+                © 2009 - {$smarty.now|date_format:"%Y"}
 
             </div>
             <hr class="delimiter">

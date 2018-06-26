@@ -5,7 +5,7 @@
     <div class="section container">
 
         <div class="section__title center-align">
-            <h1>Заполнение декларации 3-НДФЛ</h1>
+            <h1>{field name=pagetitle}</h1>
         </div>
 
         <div class="row">

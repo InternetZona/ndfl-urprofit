@@ -2,4 +2,4 @@
 /assets
 /core
 node_modules/
-/config.json
+config.json

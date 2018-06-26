@@ -60,7 +60,7 @@
                                     </span>
                                     {/if}
                                 </div>
-                                <div class="col s12">
+                                <div class="col s12 right-align">
                                     <a href="#order" class="btn link--scroller">Заказать</a>
                                 </div>
                             </div>

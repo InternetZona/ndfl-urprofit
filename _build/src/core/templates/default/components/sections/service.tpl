@@ -47,7 +47,7 @@
                         </div>
                         <div class="card-action">
                             <div class="row row--grid">
-                                <div class="col s12 valign-wrapper">
+                                <div class="col s12">
 
                                     {if $price = $object.tvs.price.value|default:0}
 
@@ -60,7 +60,7 @@
                                     </span>
                                     {/if}
                                 </div>
-                                <div class="col s12 valign-wrapper">
+                                <div class="col s12">
                                     <a href="#order" class="btn link--scroller">Заказать</a>
                                 </div>
                             </div>

@@ -120,6 +120,10 @@ nav {
       line-height: 44px;
     }
 
+    @media #{$medium-and-up} {
+      margin-top: 5px;
+    }
+
     @media #{$extra-large-and-up} {
       min-width: 240px;
     }

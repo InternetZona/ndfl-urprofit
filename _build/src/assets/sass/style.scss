@@ -17,6 +17,10 @@ $num-cols: 24;
 // Tables
 $table-border-color: rgba($primary-color, .8) !default;
 
+// Navigation Bar
+$navbar-height: 74px !default;
+$navbar-height-mobile: 56px !default;
+
 @import '../../../../node_modules/materialize-css/sass/materialize';
 @import 'libs/swiper';
 @import 'helpers';

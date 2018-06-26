@@ -8,13 +8,13 @@
             <hr class="delimiter">
             <ul class="menu-policy menu--inline">
                 <li>
-                    <a class="grey-text text-lighten-4" href="#!">Договор оказания юридических услуг</a>
+                    <a class="grey-text text-lighten-4" href="dogovor.doc">Договор оказания юридических услуг</a>
                 </li>
                 <li>
-                    <a class="grey-text text-lighten-4" href="#!">Согласие на обработку персональных данных</a>
+                    <a class="grey-text text-lighten-4" href="soglasie.doc">Согласие на обработку персональных данных</a>
                 </li>
                 <li>
-                    <a class="grey-text text-lighten-4" href="#!">Политика оператора в отношении обработки персональных данных</a>
+                    <a class="grey-text text-lighten-4" href="politic.doc">Политика оператора в отношении обработки персональных данных</a>
                 </li>
             </ul>
         </div>

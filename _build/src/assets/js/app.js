@@ -4,6 +4,7 @@
 //= ../../../../node_modules/materialize-css/dist/js/materialize.js
 //= ../../../../node_modules/swiper/dist/js/swiper.min.js
 //= ../../../../node_modules/jquery-validation/dist/jquery.validate.min.js
+//= ../../../../node_modules/inputmask/dist/jquery.inputmask.bundle.js
 
 var App = {
 
@@ -35,6 +36,14 @@ var App = {
         });
       },
     });
+
+    var $telFields = $('input[type="tel');
+
+    if ($telFields.length > 0) {
+      $telFields.inputmask({
+        mask: "+7 (999) 999-99-99",
+      });
+    }
 
   },
 

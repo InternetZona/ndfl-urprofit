@@ -28,7 +28,11 @@
                         <div class="row row--grid">
                             <div class="col s24 m12 valign-wrapper">
                                 <div class="wrapper price--area">
-                                    Стоимость: <span class="order-alert__price">{$price|number_format:0:",":" "}</span> рублей
+                                    Стоимость:
+                                    {if {tv name=isfrom}}
+                                     от
+                                    {/if}
+                                    <span class="order-alert__price">{$price|number_format:0:",":" "}</span> рублей
                                 </div>
                             </div>
                             <div class="col s24 m12 valign-wrapper">

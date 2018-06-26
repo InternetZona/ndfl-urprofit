@@ -37,11 +37,12 @@ var App = {
       },
     });
 
-    var $telFields = $('input[type="tel');
+    var $telFields = $('input[type="tel"]');
 
     if ($telFields.length > 0) {
       $telFields.inputmask({
         mask: "+7 (999) 999-99-99",
+        showMaskOnHover: false,
       });
     }
 

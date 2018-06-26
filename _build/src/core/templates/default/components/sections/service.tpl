@@ -52,7 +52,7 @@
                                     {if $price = $object.tvs.price.value|default:0}
 
                                         <span class="service-price">
-                                        {if $object.tvs.isfrom}
+                                        {if $object.tvs.isfrom.value}
                                             от
                                         {/if}
 

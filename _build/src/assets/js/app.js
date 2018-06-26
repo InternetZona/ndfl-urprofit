@@ -37,6 +37,29 @@ var App = {
       },
     });
 
+    $(window).on('scroll', function() {
+
+      var $scrollUp = $('#scroll-up');
+
+      if ($scrollUp.length > 0) {
+
+        $(window).on('scroll', function() {
+          if($(window).scrollTop() >= 100 ){
+            $scrollUp.parent().show();
+          } else {
+            $scrollUp.parent().hide();
+          }
+        })
+
+        $scrollUp.on('click', function(e) {
+          e.preventDefault();
+
+          $("html, body").animate({ scrollTop: 0 }, "slow");
+        });
+      }
+
+    });
+
     var $telFields = $('input[type="tel"]');
 
     if ($telFields.length > 0) {
@@ -295,6 +318,8 @@ var App = {
 
               if (response.success) {
                 $('#order-tabs').tabs('select', 'tab3');
+
+                $('html, body').animate({ scrollTop: $('#tab3').offset().top - 50 }, "slow");
 
                 $form.trigger('reset');
 

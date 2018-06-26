@@ -101,3 +101,14 @@
     font-size: 1.3rem;
   }
 }
+
+.scroll-up {
+
+  &--wrapper {
+    display: none;
+
+    @media #{$small-and-down} {
+      display: none!important;
+    }
+  }
+}

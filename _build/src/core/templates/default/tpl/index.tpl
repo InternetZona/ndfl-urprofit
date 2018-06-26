@@ -42,6 +42,12 @@
 
         {include file="components/_footer.tpl"}
 
+        <div class="fixed-action-btn scroll-up--wrapper">
+            <a href="#" id="scroll-up" class="btn-floating blue darken-2">
+                <i class="material-icons">arrow_upward</i>
+            </a>
+        </div>
+
         {block name=modals}
             {include file="components/modal/callback.tpl"}
         {/block}

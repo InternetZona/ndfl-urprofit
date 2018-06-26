@@ -9,7 +9,7 @@
         </li>
         <li class="header-topbar__address">
             <div class="header-topbar-wrapper">
-                <i class="material-icons">location_on</i> Новая Басманная, 35с1<br>(10 мин. от м. Бауманская)
+                <i class="material-icons">location_on</i> <a href="{$modx->makeUrl(12)|cat:'#contact'}">Новая Басманная, 35с1<br>(10 мин. от м. Бауманская)</a>
             </div>
         </li>
         <li class="header-topbar__buttons">

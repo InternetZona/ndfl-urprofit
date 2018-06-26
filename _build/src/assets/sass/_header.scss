@@ -23,6 +23,13 @@
       @media #{$extra-large-and-up} {
         display: inline-block!important;
       }
+
+      a{
+        color: $off-black;
+        @media #{$large-and-up} {
+          font-size: 1rem;
+        }
+      }
     }
 
     &__phone {
@@ -37,20 +44,28 @@
       }
 
       a {
-        color: $off-black;
+        color: $secondary-color;
 
         @media #{$medium-and-up} {
           font-weight: bold;
         }
 
+        @media #{$large-and-up} {
+          font-size: 1.1rem;
+        }
+
         &:hover {
-          color: $secondary-color;
+          color: $off-black;
         }
       }
 
       small {
         display: block;
         padding-left: 18px;
+
+        @media #{$large-and-up} {
+          font-size: .9rem;
+        }
       }
     }
 

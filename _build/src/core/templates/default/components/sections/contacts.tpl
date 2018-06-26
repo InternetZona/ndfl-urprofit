@@ -1,4 +1,4 @@
-<div id="#contacts" class="section" style="padding-bottom: 0;">
+<div id="#contact" class="section" style="padding-bottom: 0;">
     <div class="container">
         <div class="section__title h2 center-align">Контакты</div>
         <div class="contact--wrapper">

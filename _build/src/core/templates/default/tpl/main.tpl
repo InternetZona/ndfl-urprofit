@@ -60,3 +60,7 @@
 {/block}
 
 {block name=order}{/block}
+
+{block name=testimonials}
+    {include file="components/sections/testimonials.tpl"}
+{/block}

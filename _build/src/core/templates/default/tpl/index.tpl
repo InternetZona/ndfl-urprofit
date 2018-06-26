@@ -33,7 +33,9 @@
             {/block}
 
             {block name=testimonials}
-                {include file="components/sections/testimonials.tpl"}
+                <!--noindex-->
+                    {include file="components/sections/testimonials.tpl"}
+                <!--/noindex-->
             {/block}
 
         </main>

@@ -16,3 +16,7 @@
     </div>
 
 {/block}
+
+{block name=contacts}
+    {* hide contacts block *}
+{/block}

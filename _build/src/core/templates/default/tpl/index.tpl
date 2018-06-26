@@ -42,6 +42,10 @@
                 <!--/noindex-->
             {/block}
 
+            {block name=contacts}
+                {include file="components/sections/contacts.tpl"}
+            {/block}
+
         </main>
 
         {include file="components/_footer.tpl"}

@@ -49,7 +49,7 @@ var App = {
           } else {
             $scrollUp.parent().hide();
           }
-        })
+        });
 
         $scrollUp.on('click', function(e) {
           e.preventDefault();

@@ -1,0 +1,12 @@
+.footer {
+  @extend .page-footer;
+
+  &__copyright {
+    @extend .footer-copyright;
+    font-size: .85rem;
+
+    .delimiter {
+      opacity: .5;
+    }
+  }
+}

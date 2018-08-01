@@ -1,0 +1,21 @@
+.modal {
+
+  &--medium {
+    max-width: 480px;
+  }
+
+  &-close {
+    @extend .right;
+    opacity: .8;
+    color: $off-black;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+
+    > i {
+      font-size: 1.2rem;
+    }
+  }
+}

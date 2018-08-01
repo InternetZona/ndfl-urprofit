@@ -1,0 +1,154 @@
+#navbar-desktop {
+
+  > li {
+
+    > a{
+      font-weight: bold;
+      outline: none!important;
+
+      &:hover{
+        background: rgba(white, .2);
+      }
+    }
+
+    &.active {
+      > a{
+        background: rgba(white, .2);
+      }
+    }
+  }
+}
+
+#dd-service {
+
+  &.dropdown-content {
+    @extend .z-depth-3;
+    width: 100% !important;
+    padding: 40px 20px;
+    left: 0 !important;
+    height: auto !important;
+    top: $navbar-height !important;
+
+    li.active,
+    li:hover {
+      background: transparent;
+    }
+
+    .row{
+      outline: none!important;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+}
+
+.navbar-menu {
+
+  li {
+    line-height: 1rem;
+    background: transparent;
+    min-height: auto;
+
+    + li {
+      margin-top: 10px;
+    }
+
+    >a {
+      padding: 0;
+      line-height: 1rem;
+      background: transparent!important;
+      color: $off-black;
+      font-size: 1rem;
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+
+    &.active {
+
+      > a{
+        color: $secondary-color;
+      }
+    }
+  }
+
+  > li {
+
+    > a {
+      font-weight: bold;
+    }
+  }
+
+  &--inner {
+    margin-top: 1rem;
+
+    > li {
+      padding-left: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid color('grey', 'lighten-3');
+
+      > a {
+        position: relative;
+        font-size: .95rem;
+
+        &:before{
+          content: "chevron_right";
+          position: absolute;
+          left: -15px;
+          top: 0;
+          font-family: 'Material Icons';
+        }
+      }
+    }
+  }
+
+  &--bolder {
+
+  }
+}
+
+nav {
+  .brand-logo {
+    padding-left: 55px;
+    font-size: 1.8rem;
+    line-height: 45px;
+    min-width: 230px;
+    
+    @media #{$medium-and-down} {
+      left: 60%;
+      line-height: 44px;
+    }
+
+    @media #{$medium-and-up} {
+      margin-top: 5px;
+    }
+
+    @media #{$extra-large-and-up} {
+      min-width: 240px;
+    }
+
+    img{
+      position: absolute;
+      height: 50px;
+      top: 8px;
+      left: 0;
+
+      @media #{$medium-and-down} {
+        top: 4px;
+      }
+    }
+
+    small {
+      position: absolute;
+      font-size: .8rem;
+      bottom: -9px;
+      line-height: 1;
+      right: 0;
+
+      @media #{$medium-and-down} {
+        bottom: -3px;
+      }
+    }
+  }
+}

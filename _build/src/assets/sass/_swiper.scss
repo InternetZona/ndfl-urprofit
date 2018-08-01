@@ -1,0 +1,69 @@
+.swiper-service{
+  margin-top: -30px;
+  padding-top: 30px;
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 0;
+    margin-top: 0;
+    height: 25px;
+    outline: 0;
+    background-size:contain;
+
+    @media #{$small-and-down} {
+      display: none;
+    }
+  }
+
+  .swiper-button-prev{
+    @media #{$medium-and-up} {
+      right: 0;
+      margin-right: 20px;
+      left: auto;
+    }
+  }
+
+  .swiper-button-next{
+    @media #{$medium-and-up} {
+      right: 0;
+    }
+  }
+
+}
+
+.swiper-testimonials{
+  margin-top: -30px;
+  padding-top: 30px;
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 0;
+    margin-top: 0;
+    height: 25px;
+    outline: 0;
+    background-size:contain;
+  }
+
+  .swiper-button-prev{
+    @media #{$small-and-down} {
+      right: 49%;
+      left: auto;
+    }
+    @media #{$medium-and-up} {
+      right: 0;
+      margin-right: 20px;
+      left: auto;
+    }
+  }
+
+  .swiper-button-next{
+    @media #{$small-and-down} {
+      left: 49%;
+      right: auto;
+    }
+    @media #{$medium-and-up} {
+      right: 0;
+    }
+  }
+
+}

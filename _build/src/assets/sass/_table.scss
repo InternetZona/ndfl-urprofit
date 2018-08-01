@@ -1,0 +1,22 @@
+.table {
+
+  a {
+    color: $off-black;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  tr > td {
+    &:not(:first-child) {
+      width: 15%;
+      min-width: 80px;
+    }
+  }
+
+  &-wrapper {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}

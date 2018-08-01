@@ -1,0 +1,153 @@
+.sticky-footer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  main {
+    flex: 1 0 auto;
+  }
+}
+
+.content {
+
+  &-wrapper {
+    margin-bottom: 1rem;
+
+    strong {
+      font-weight: bold;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: bold;
+    }
+
+    ul {
+
+      li {
+        padding-left: 20px;
+        position: relative;
+
+        &:before {
+          content: "";
+          position: absolute;
+          left: 5px;
+          top: 10px;
+          border: 3px solid $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.small {
+  font-size: .85rem;
+}
+
+.map-container {
+  height: 400px;
+}
+
+.fieldset {
+  border: 2px solid color('grey', 'lighten-3');
+  position: relative;
+  padding: 1rem;
+
+  &:before {
+    position: absolute;
+    content: attr(data-legend);
+    background: white;
+    padding: 2px 5px;
+    top: -.9rem;
+    left: 5px;
+    font-size: .9rem;
+    text-transform: uppercase;
+  }
+}
+
+.material-tooltip {
+  font-size: .8rem;
+  max-width: 150px;
+}
+
+.order-alert {
+  border: 1px dashed $primary-color;
+  padding: .75rem;
+
+  .wrapper{
+    margin: auto;
+  }
+
+  .row--grid > .col {
+    margin-bottom: 0;
+
+    + .col {
+      @media #{$small-and-down} {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .price--area {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: $secondary-color;
+  }
+
+  a{
+    font-weight: bold;
+  }
+
+  &__price {
+    font-size: 1.3rem;
+  }
+}
+
+.scroll-up {
+
+  &--wrapper {
+    display: none;
+
+    @media #{$small-and-down} {
+      display: none!important;
+    }
+  }
+}
+
+.contact {
+  text-align: center;
+
+  > div {
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .wrapper {
+    display: inline-block;
+    padding-left: 35px;
+    position: relative;
+    margin: auto;
+  }
+
+  i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -12px;
+  }
+
+  a{
+    color: $off-black;
+
+    &:hover,
+    &:focus {
+      color: $secondary-color;
+    }
+
+  }
+
+  span {
+    display: inline-block;
+    text-align: left;
+  }
+}
